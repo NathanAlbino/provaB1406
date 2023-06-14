@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    
+}
+
+
+html{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    text-rendering: optimizeLegibility;
+
+  
+}
+body{
+    display: flex;
+    align-items: center;
+    background-color: rgb(91, 91, 91);
+}
+main{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 5rem;
+}
+
+aside{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:rgb(240, 238, 238);
+
+    flex-direction: column;
+
+}
+
+h1{
+    font-size: 5rem;
+
+}
+
+img{
+
+    width: 25rem;
+    border-radius: 5rem;
+   
+
+}
+input{
+    width: 25rem;
+    height: 5rem;
+
+    
+    border: solid 0.1rem;
+}
+
+button{
+    width: 15rem;
+    height: 5rem;
+
+    border: solid black 0.1rem;
+    
+
+    cursor: pointer;
+
+    background-color: rgb(227, 64, 64);
+
+    color: rgb(0, 0, 0);
+
+}
+ul{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 66.3rem;
+    padding: 1rem;
+}
+aside::-webkit-scrollbar{
+    display: none;
+}
+    
+    
+
+
+    
+
+    
